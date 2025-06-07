@@ -2,8 +2,8 @@ import { DeviceSettings, useCall, VideoPreview } from "@stream-io/video-react-sd
 import React, { useEffect } from "react";
 import { Card } from "./ui/card";
 import { CameraIcon, MicIcon, SettingsIcon } from "lucide-react";
-import { Switch } from "@radix-ui/react-switch";
 import { Button } from "./ui/button";
+import { Switch } from "./ui/switch";
 
 const MeetingSetup = ({ onSetupComplete }: { onSetupComplete: () => void }) => {
   const [isCameraDisabled, setIsCameraDisabled] = React.useState(false);
